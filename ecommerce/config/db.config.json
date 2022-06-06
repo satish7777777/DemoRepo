@@ -1,0 +1,42 @@
+{
+    "development" :{
+        "database" : "ecommerce",
+        "username" : "root",
+        "password" : "sqlsatish123@",
+        "dialectInformation" :{
+            "dialect" : "mysql",
+            "host" : "localhost"
+        },
+        "pool" :{
+            "max" : 3,
+            "min" : 0,
+            "acquire" : 20000,
+            "idle" :10000
+        }
+    },
+    "test" :{
+        "database" : "ecommerce",
+        "username" : "root",
+        "password" : "mysql",
+        "dialectInformation" :{
+            "dialect" : "sqlsatish123@",
+            "host" : "localhost"
+        }
+    },
+
+    "production" :{
+        "database" : "sql6497794",
+        "username" : "sql6497794",
+        "password" : "mQ9j97ABDj",
+        "dialectInformation" :{
+            "dialect" : "freemysqlhosting",
+            "host" : "sql6.freemysqlhosting.net"
+        },
+        "pool" :{
+            "max" : 3,
+            "min" : 0,
+            "acquire" : 20000,
+            "idle" :10000
+        }
+    }
+}
